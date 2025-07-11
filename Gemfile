@@ -19,7 +19,7 @@ gem 'tempfile'
 gem "rdoc"
 gem "fileutils"
 gem "raap"
-gem "activesupport"
+gem "activesupport", ">= 8.0.0.1"
 
 group :libs do
   # Libraries required for stdlib test
@@ -50,5 +50,5 @@ group :minitest do
 end
 
 group :typecheck_test do
-  gem "steep", "~> 1.8.0.pre", require: false
+  gem "steep", "~> 1.9.0.0", require: false
 end
